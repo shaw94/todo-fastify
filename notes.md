@@ -22,3 +22,9 @@ But before that let's make a .env file and have the postgres variables I need th
 Right so this is spiraling a bit. My node version is outdated, and me install dotenv package, I noticed my node version is 18, while they are at 20. Naturally I wanted to install this version, and it seems the best way to have multiple version is to use nvm.
 
 Right, I just got NVM and downloading the latest node version, then updating the dependencies within my project
+
+Next, .env, then migrator. As we did in laravel, lets do a .env.example. We did .env.testing also, but i am not so sure I want to dable with testing just yet. it has been a while since I used Javascript. So let's give this time.
+
+Right, made the .env, i remember from a video who recommended to never use the latest tag on dependencies within docker. Also, the port is for me to see the database on my host machine via my client.
+
+Anyways just got the latest postgres docker image, and next is postgrator (hopefully before something else does not grab my attention)
